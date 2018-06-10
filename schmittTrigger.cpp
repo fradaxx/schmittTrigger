@@ -33,10 +33,12 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 #include "schmittTrigger.h"
 
+// Constructor
 schmittTrigger::schmittTrigger()
 {
 }
 
+// Initialize trigger using low and high thresholds
 void schmittTrigger::beginTH(triggerType_t triggerType, double lowThreshold, double highThreshold, int defaultOuputStatus)
 {
 	_TRIGGERTYPE = triggerType;
@@ -45,6 +47,7 @@ void schmittTrigger::beginTH(triggerType_t triggerType, double lowThreshold, dou
 	_POS = defaultOuputStatus;
 }
 
+// Initialize trigger using setpoint and hysteresis
 void schmittTrigger::beginSP(triggerType_t triggerType, double setpoint, double hysteresis, int defaultOuputStatus)
 {
 	_TRIGGERTYPE = triggerType;
@@ -53,20 +56,21 @@ void schmittTrigger::beginSP(triggerType_t triggerType, double setpoint, double 
 	_POS = defaultOuputStatus;
 }
 
-// to change thresholds "on the fly"
+// Change thresholds "on the fly"
 void schmittTrigger::changeThresholds(double lowThreshold, double highThreshold)
 {
 	_LT = lowThreshold;
 	_HT = highThreshold;
 }
 
-// to change thresholds "on the fly" specifing setpoint and hysteresis
+// Change thresholds "on the fly" specifing setpoint and hysteresis
 void schmittTrigger::changeSetpoint(double setpoint, double hysteresis)
 {
 	_LT = setpoint - hysteresis/2.0;
 	_HT = setpoint + hysteresis/2.0;
 }
 
+// Calculate the new output status as a function of the previous one and of the input value
 bool schmittTrigger::evaluate(double input)
 {
 	bool nos;
@@ -87,6 +91,7 @@ bool schmittTrigger::evaluate(double input)
 	return nos;
 }
 
+// Destructor
 schmittTrigger::~schmittTrigger()
 {
 }
