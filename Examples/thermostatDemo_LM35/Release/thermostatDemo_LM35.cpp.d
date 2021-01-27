@@ -1,14 +1,14 @@
 C:\Users\Francesco\AppData\Local\Temp\VMBuilds\thermostatDemo_LM35\uno\Release\thermostatDemo_LM35.cpp.o: \
  C:\Users\Francesco\AppData\Local\Temp\VMBuilds\thermostatDemo_LM35\uno\Release\thermostatDemo_LM35.cpp \
- c:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\cores\arduino/arduino.h \
- c:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\cores\arduino/binary.h \
- c:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\cores\arduino/WCharacter.h \
- c:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\cores\arduino/WString.h \
- c:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\cores\arduino/HardwareSerial.h \
- c:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\cores\arduino/Stream.h \
- c:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\cores\arduino/Print.h \
- c:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\cores\arduino/Printable.h \
- c:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\cores\arduino/USBAPI.h \
- c:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\cores\arduino/Arduino.h \
- c:\Program\ Files\ (x86)\arduino-1.8.5\hardware\arduino\avr\variants\standard/pins_arduino.h \
+ C:\Users\Francesco\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\cores\arduino/arduino.h \
+ C:\Users\Francesco\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\cores\arduino/binary.h \
+ C:\Users\Francesco\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\cores\arduino/WCharacter.h \
+ C:\Users\Francesco\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\cores\arduino/WString.h \
+ C:\Users\Francesco\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\cores\arduino/HardwareSerial.h \
+ C:\Users\Francesco\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\cores\arduino/Stream.h \
+ C:\Users\Francesco\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\cores\arduino/Print.h \
+ C:\Users\Francesco\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\cores\arduino/Printable.h \
+ C:\Users\Francesco\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\cores\arduino/USBAPI.h \
+ C:\Users\Francesco\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\cores\arduino/Arduino.h \
+ C:\Users\Francesco\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\variants\standard/pins_arduino.h \
  D:\Documenti\Arduino\libraries\schmittTrigger/schmittTrigger.h

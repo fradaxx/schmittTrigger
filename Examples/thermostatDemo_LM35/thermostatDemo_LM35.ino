@@ -33,8 +33,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 #include "schmittTrigger.h"
 
-#define VREF		(double) 5.0				// Voltage reference for analog input
-#define	AIN_PIN		0							// Analog input pin
+#define VREF		(double) 5.0				// Voltage reference for analog inpu
 #define K			(double) 100*(VREF/1023)	// transducer constant [degC/LSB]
 
 #define RELAY_CONTROL		12	// Digital pin to control the output relay
@@ -68,25 +67,16 @@ void loop()
 {
 	delay(1000);
 	sp = MIN_TEMP + analogRead(SETPOINT_ANALOG_IN)*(MAX_TEMP - MIN_TEMP) / 1024; // Scale the analog input value to [MIN_TEMP, MAX_TEMP] interval
+	double tl = sp - HYST / 2;
+	double th = sp + HYST / 2;
 	t = (double) K*analogRead(LM35_ANALOG_IN);
-	double TL = sp - HYST / 2;
-	double TH = sp + HYST / 2;
 
-	bool nos = st.evaluate(t);
+	bool nos = st.evaluate(t); // new output state
 	digitalWrite(RELAY_CONTROL, nos ? HIGH : LOW);
 
-/*
-	if (t < TL)
-		digitalWrite(RELAY_CONTROL, LOW);
-	else if (t > TH)
-		digitalWrite(RELAY_CONTROL, HIGH);
-	else {
-		// Non fare niente!!!
-	}
-*/
-	Serial.print(TL, 1);
+	Serial.print(tl, 1);
 	Serial.print(", ");
-	Serial.print(TH, 1);
+	Serial.print(th, 1);
 	Serial.print(", ");
 	Serial.println(t, 1);
 }
