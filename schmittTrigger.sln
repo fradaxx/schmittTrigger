@@ -12,6 +12,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "schmittTrigger", "schmittTrigger\schmittTrigger.vcxitems", "{344B55B4-E3FA-4E6A-94B5-0D35CA638ED1}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		schmittTrigger\schmittTrigger.vcxitems*{344b55b4-e3fa-4e6a-94b5-0d35ca638ed1}*SharedItemsImports = 9
+		schmittTrigger\schmittTrigger.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		schmittTrigger\schmittTrigger.vcxitems*{cbafca02-8622-4878-b03d-4945b7c360cf}*SharedItemsImports = 4
+		schmittTrigger\schmittTrigger.vcxitems*{d20459f3-aa66-43cb-a301-32b95bfb3eca}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86

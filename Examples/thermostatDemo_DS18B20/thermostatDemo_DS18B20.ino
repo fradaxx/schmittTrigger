@@ -31,7 +31,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 */
 
-#include "schmittTrigger.h"
+#include <schmittTrigger.h>
 #include "OneWire.h"
 #include "DallasTemperature.h"
 

@@ -28,7 +28,7 @@
 	FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 	OTHER DEALINGS IN THE SOFTWARE.
 */
-#include "schmittTrigger.h"
+#include <schmittTrigger.h>
 
 #define DEBUG
 #define LOW_THRESHOLD	(double) 2.5 // Low Threshold [V]

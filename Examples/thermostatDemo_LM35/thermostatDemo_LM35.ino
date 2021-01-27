@@ -31,7 +31,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 */
 
-#include "schmittTrigger.h"
+#include <schmittTrigger.h>
 
 #define VREF		(double) 5.0				// Voltage reference for analog inpu
 #define K			(double) 100*(VREF/1023)	// transducer constant [degC/LSB]
