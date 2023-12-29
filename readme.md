@@ -9,4 +9,4 @@ Three demos are given with the library at current stage of development:
 - thermostatDemo_LM35: a simple on-off thermostat implementation with settable setpoint and hysteresis which controls a digital output in response to temperature measured with a LM35 analog output temperature sensor.
 
 
-Please note that for the development I'm using the Visual Micro plug-in w/ Visual Studio 2019 Community Edition; this explains the presence of many additional files other than that of the classic .h, .cpp and .ino
+Please note that for the development I'm using the Visual Micro plug-in w/ Visual Studio 2019 Community Edition; this explains the presence of many additional files other than the classic .h, .cpp and .ino
