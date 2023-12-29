@@ -1,6 +1,6 @@
 This is my attempt to implement a Schmitt Trigger (trigger w/ hysteresis) Class Library for microcontrollers like Arduino.
 
-Three demos are given with the library at current stage of development:
+Three simple demos are given for Arduino with the library at current stage of development:
 
 - simpleDemo: a very simple sketch that initialize a noninverting trigger with hardcoded thresholds and calculates the output status using the signal on A0 as input; informative messages giving the input value and the output status are sent on the serial port.
 
